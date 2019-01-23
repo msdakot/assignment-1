@@ -17,6 +17,16 @@ However, local installation is still preferred, so please also contact me any pr
 
 ## Part 2: Finding the Philadelphia ZIP Code with the maximum ZHVI over time
 
+If running Python locally, start a Jupyter notebook by running the following command
+from the command line:
+
+```
+source activate musa
+jupyter notebook
+```
+
+This will create the local Jupyter server. If it does not open in a browser, copy the link that is output by the command into your favorite browser. Once the server is running, you can create a new notebook and get started!
+
 Use a Jupyter notebook to find the Philadelphia ZIP code with the largest average annual ZHVI value, for each year in the data set. The Zillow data is available in this repository: [data/Zip_Zhvi_AllHomes.csv]().
 
 The Jupyter notebook should used _pandas_ to load the data and analyze it. The following steps should be followed:
