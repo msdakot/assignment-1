@@ -27,6 +27,8 @@ jupyter notebook
 
 This will create the local Jupyter server. If it does not open in a browser, copy the link that is output by the command into your favorite browser. Once the server is running, you can create a new notebook and get started!
 
+For help running the notebook, see the [Jupyter documentation](https://jupyter.readthedocs.io/en/latest/running.html#running).
+
 Use a Jupyter notebook to find the Philadelphia ZIP code with the largest average annual ZHVI value, for each year in the data set. The Zillow data is available in this repository: [data/Zip_Zhvi_AllHomes.csv]().
 
 The Jupyter notebook should used _pandas_ to load the data and analyze it. The following steps should be followed:
