@@ -1,0 +1,9 @@
+name: musa
+channels:
+  - defaults
+dependencies:
+  - python=3.6
+  - numpy
+  - pandas
+  - matplotlib
+  - jupyter
