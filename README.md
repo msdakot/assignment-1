@@ -25,13 +25,18 @@ source activate musa
 jupyter notebook
 ```
 
-This will create the local Jupyter server. If it does not open in a browser, copy the link that is output by the command into your favorite browser. Once the server is running, you can create a new notebook and get started!
+This will create the local Jupyter server. If it does not open in a browser, copy the link that is output by the command into your favorite browser. Once the server is running, you can create a new notebook and get started! 
 
+The notebook will execute code from the current working directory (the directory that the notebook was launched from). If using relative file paths to load the data, the path should be relative to this working directory. From within the Jupyter notebook, you can find out the current working directory by running the following command in a cell:
+
+```python
+pwd
+```
 For help running the notebook, see the [Jupyter documentation](https://jupyter.readthedocs.io/en/latest/running.html#running).
 
-Use a Jupyter notebook to find the Philadelphia ZIP code with the largest average annual ZHVI value, for each year in the data set. The Zillow data is available in this repository: [data/Zip_Zhvi_AllHomes.csv]().
+Use a Jupyter notebook to find the Philadelphia ZIP code with the largest average annual ZHVI value, for each year in the data set. The Zillow data is available for download in this repository: [data/Zip_Zhvi_AllHomes.csv](data/Zip_Zhvi_AllHomes.csv).
 
-The Jupyter notebook should used _pandas_ to load the data and analyze it. The following steps should be followed:
+The Jupyter notebook should use _pandas_ to load the data and analyze it. The following steps should be followed:
 
 1. Load the ZHVI data for each ZIP code, selecting only Philadelphia ZIP codes.
 1. Calculate the annual average ZHVI for each ZIP code in Philadelphia and each year.
