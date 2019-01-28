@@ -28,7 +28,7 @@ application like [iTerm](https://www.iterm2.com/).
 ## Setting up a MUSA 620 Python environment
 
 A new conda environment should be created and activated
-using the [environment.yml]() file in this repository.
+using the [environment.yml](environment.yml) file in this repository.
 From the command-line, run:
 
 ```
